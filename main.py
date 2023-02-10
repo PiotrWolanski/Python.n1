@@ -1,1 +1,9 @@
-print('Hello World, my name is Piotr Wolansk')
+#Data Types
+int
+float
+bool
+str
+list
+tuple
+set
+dict

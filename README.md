@@ -11,3 +11,6 @@ Variables:
   - Letters, numbers, underscores
   - Case sensitive
   - Don't overwrite keywords. (print = 190   ->   print(print) - WRONG)
+
+
+print('hello' + ' Piotr') -> V; print('hello' + ' 5') -> X 5 is an int

@@ -72,8 +72,49 @@
 #---------------------------------------#
 
 # augmented assignment operator
-some_value = 5
+#some_value = 5
 #some_value = some_value + 2
-some_value -= 2
+#some_value -= 2
 
-print(some_value)
+#print(some_value)
+
+# print(type("hi hello there 24!"))
+# username = 'supercoder'
+# password = 'supersecret'
+# long_string = '''
+# WOW
+# O O
+# ---
+# '''
+
+#print(long_string)
+# first_name = 'Piotr'
+# last_name = 'Wolanski'
+# full_name = first_name + ' ' + last_name
+# print(full_name)
+
+#---------------------------------------#
+
+# string concatenation
+#print('hello' + ' Piotr')
+
+# a = str(100)
+# b = int(a)
+# c = type(b)
+# print(c)
+
+#Type Conversion
+
+#print(type(int(str(100))))
+
+# Escpae Sequence
+#weather = "\t It\'s \"kind of\" sunny \n hope you have a good day!"
+
+#print(weather)
+
+#Formatted Strings
+
+name = 'Johnny'
+age = 55
+
+print('hi {0}. You are {1} years old.'.format(name, age))

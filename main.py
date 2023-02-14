@@ -114,7 +114,19 @@
 
 #Formatted Strings
 
-name = 'Johnny'
-age = 55
+# name = 'Johnny'
+# age = 55
 
-print('hi {0}. You are {1} years old.'.format(name, age))
+# print('hi {0}. You are {1} years old.'.format(name, age))
+
+#---------------------------------------#
+
+#String Indexes
+
+selfish = 'me me me'
+        #  01234567
+# [start:stop]
+print(selfish[7])
+print(selfish[0:8:3])
+print(selfish)
+print(selfish[::-3])

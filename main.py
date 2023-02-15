@@ -123,10 +123,46 @@
 
 #String Indexes
 
-selfish = 'me me me'
-        #  01234567
-# [start:stop]
-print(selfish[7])
-print(selfish[0:8:3])
-print(selfish)
-print(selfish[::-3])
+# selfish = 'me me me'
+#         #  01234567
+# # [start:stop]
+# print(selfish[7])
+# print(selfish[0:8:3])
+# print(selfish)
+# print(selfish[::-3])
+
+
+#Built-In Functions + Methods
+
+# greet = 'hellloooo'
+# print(greet[0:len(greet)])
+
+# quote = 'to be or not to be'
+# print(quote.find('be'))
+# quote2 = quote.replace('be', 'me')
+# print(quote2)
+
+#---------------------------------------#
+
+#Booleans
+# name = 'Piotr'
+# is_cool = False
+
+# is_cool = True
+
+# print(bool('True'))
+
+#Exercise: Type Conversion
+name = 'Piotr Wolanski'
+age = 50
+relationship_status = 'single'
+
+relationship_status = 'it\'s complicated'
+
+print(relationship_status)
+
+birth_year = input('what year were you bron?')
+
+age = 2019 - int(birth_year)
+
+print(f'your age is: {age}')

@@ -153,16 +153,35 @@
 # print(bool('True'))
 
 #Exercise: Type Conversion
-name = 'Piotr Wolanski'
-age = 50
-relationship_status = 'single'
+# name = 'Piotr Wolanski'
+# age = 50
+# relationship_status = 'single'
 
-relationship_status = 'it\'s complicated'
+# relationship_status = 'it\'s complicated'
 
-print(relationship_status)
+# print(relationship_status)
 
-birth_year = input('what year were you bron?')
+# birth_year = input('what year were you bron?')
 
-age = 2019 - int(birth_year)
+# age = 2019 - int(birth_year)
 
-print(f'your age is: {age}')
+# print(f'your age is: {age})
+
+
+#---------------------------------------#
+
+# # assign namevariable a value of Piotr string
+# name = 'Piotr'
+# is_cool = False
+
+# is_cool = True
+
+# print(bool('True'))
+
+
+# Password checker
+
+input('Joker')
+input('secret')
+
+print('{username}, ')

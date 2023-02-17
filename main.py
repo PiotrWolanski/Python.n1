@@ -181,7 +181,99 @@
 
 # Password checker
 
-input('Joker')
-input('secret')
+# input('Joker')
+# input('secret')
 
-print('{username}, ')
+# print('{username}, your password {******} is {6} letters long')
+
+# print(password * 6(lenght))
+
+# input = ('username')
+# input = ('secret')
+
+# database = {'piotr': {'password':'123456'}, 'piotr2': {'password':'xyz123'}}
+
+# username = input('What\'s your username?:\n')
+# password = input('What\'s your password?:\n')
+
+import time
+import sys
+import getpass
+
+database = [
+    ("Piotr1", "123"),
+    ("Piotr2", "456")
+    ]
+
+
+def login():
+    time.sleep(1)
+    print("Welcome. Please login.")
+    while True:
+        time.sleep(1)
+        username = input("Username: ")
+        password = getpass.getpass("Password: ")
+        time.sleep(1)
+        if (username, password) in database:
+            print("Welcome, " + username)
+            main()
+        else:
+            print("User not found. Try again.")
+
+def logout():
+    time.sleep(1)
+    print("Logout?")
+    lgout = input(">>")
+    if lgout == ("yes") or lgout == ("Yes") or lgout == ("YES"):
+        time.sleep(1)
+        print("Logout successful")
+        main2()
+    elif lgout == ("no") or lgout == ("No") or lgout == ("NO"):
+        print("Logout unsuccessful")
+        main()
+    else:
+        print("Command not valid")
+
+
+
+def main():
+    time.sleep(1)
+    print("Current commands: Logout")
+    while True:
+        command = input(">>")
+        if command == ("Logout"):
+            logout()
+        else:
+            print("Command not valid")
+
+def main2():
+    time.sleep(1)
+    print("Hello, would you like to login, register or exit?")
+    while True:
+        command2 = input(">>")
+        if command2 == ("Login") or command2 == ("login") or command2 == ("LOGIN"):
+            login()
+        elif command2 == ("Register") or command2 == ("register") or command2 ==      ("REGISTER"):
+            register()
+        elif command2 == ("Exit") or command2 == ("exit") or command2 == ("EXIT"):
+            sys.exit()
+        else:
+            print("Command not valid")
+
+def register():
+    print("Register your information below")
+    (newusername = input("Username: ").append(database)
+    (newpassword = getpass.getpass("Password: ").append(database)
+
+    print("Success! Please login!")
+    login()
+
+
+main2() 
+
+
+
+
+
+
+

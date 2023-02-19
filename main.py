@@ -196,84 +196,124 @@
 # username = input('What\'s your username?:\n')
 # password = input('What\'s your password?:\n')
 
-import time
-import sys
-import getpass
+#---------------------------------------#
 
-database = [
-    ("Piotr1", "123"),
-    ("Piotr2", "456")
-    ]
+# import time
+# import sys
+# import getpass
 
-
-def login():
-    time.sleep(1)
-    print("Welcome. Please login.")
-    while True:
-        time.sleep(1)
-        username = input("Username: ")
-        password = getpass.getpass("Password: ")
-        time.sleep(1)
-        if (username, password) in database:
-            print("Welcome, " + username)
-            main()
-        else:
-            print("User not found. Try again.")
-
-def logout():
-    time.sleep(1)
-    print("Logout?")
-    lgout = input(">>")
-    if lgout == ("yes") or lgout == ("Yes") or lgout == ("YES"):
-        time.sleep(1)
-        print("Logout successful")
-        main2()
-    elif lgout == ("no") or lgout == ("No") or lgout == ("NO"):
-        print("Logout unsuccessful")
-        main()
-    else:
-        print("Command not valid")
+# database = [
+#     ("Piotr1", "123"),
+#     ("Piotr2", "456")
+#     ]
 
 
+# def login():
+#     time.sleep(1)
+#     print("Welcome. Please login.")
+#     while True:
+#         time.sleep(1)
+#         username = input("Username: ")
+#         password = getpass.getpass("Password: ")
+#         time.sleep(1)
+#         if (username, password) in database:
+#             print("Welcome, " + username)
+#             main()
+#         else:
+#             print("User not found. Try again.")
 
-def main():
-    time.sleep(1)
-    print("Current commands: Logout")
-    while True:
-        command = input(">>")
-        if command == ("Logout"):
-            logout()
-        else:
-            print("Command not valid")
-
-def main2():
-    time.sleep(1)
-    print("Hello, would you like to login, register or exit?")
-    while True:
-        command2 = input(">>")
-        if command2 == ("Login") or command2 == ("login") or command2 == ("LOGIN"):
-            login()
-        elif command2 == ("Register") or command2 == ("register") or command2 ==      ("REGISTER"):
-            register()
-        elif command2 == ("Exit") or command2 == ("exit") or command2 == ("EXIT"):
-            sys.exit()
-        else:
-            print("Command not valid")
-
-def register():
-    print("Register your information below")
-    (newusername = input("Username: ").append(database)
-    (newpassword = getpass.getpass("Password: ").append(database)
-
-    print("Success! Please login!")
-    login()
-
-
-main2() 
+# def logout():
+#     time.sleep(1)
+#     print("Logout?")
+#     lgout = input(">>")
+#     if lgout == ("yes") or lgout == ("Yes") or lgout == ("YES"):
+#         time.sleep(1)
+#         print("Logout successful")
+#         main2()
+#     elif lgout == ("no") or lgout == ("No") or lgout == ("NO"):
+#         print("Logout unsuccessful")
+#         main()
+#     else:
+#         print("Command not valid")
 
 
 
+# def main():
+#     time.sleep(1)
+#     print("Current commands: Logout")
+#     while True:
+#         command = input(">>")
+#         if command == ("Logout"):
+#             logout()
+#         else:
+#             print("Command not valid")
+
+# def main2():
+#     time.sleep(1)
+#     print("Hello, would you like to login, register or exit?")
+#     while True:
+#         command2 = input(">>")
+#         if command2 == ("Login") or command2 == ("login") or command2 == ("LOGIN"):
+#             login()
+#         elif command2 == ("Register") or command2 == ("register") or command2 ==      ("REGISTER"):
+#             register()
+#         elif command2 == ("Exit") or command2 == ("exit") or command2 == ("EXIT"):
+#             sys.exit()
+#         else:
+#             print("Command not valid")
+
+# def register():
+#     print("Register your information below")
+#     (newusername == input("Username: "))
+#     (newpassword == getpass.getpass("Password: "))
+
+#     print("Success! Please login!")
+#     login()
 
 
+# main2() 
 
+#---------------------------------------#
+
+# username = input('What is your username?')
+# password = input('What is your password?')
+
+# password_length = len(password)
+# hidden_password = '*' * password_length
+
+# print(f'{username}, your password, {hidden_password}, is {len(password)} letters long')
+
+#---------------------------------------#
+
+# List
+# li = [1, 2, 3, 4, 5]
+# li2 = ['a', 'b', 'c']
+# li3 = [1, 2.5, 'a', True]
+# amazon_cart = ['notebooks', 'sunglasses']
+
+# print(amazon_cart[1])
+# Data Structure
+
+# List slicing
+
+# amazon_cart = ['notebooks',
+#                'sunglasses',
+#                'toys',
+#                'grapes'
+#               ]
+# amazon_cart[0] = 'laptop'
+# new_cart = amazon_cart[:]
+# new_cart[0] = 'gum'
+# print(new_cart)
+# print(amazon_cart)
+
+# Matrix :D
+
+# matrix = [
+#   [1,5,1],
+#   [0,1,0],
+#   [1,0,1]
+# ]
+
+# print(matrix[0][1][][][])
 

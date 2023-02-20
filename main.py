@@ -317,3 +317,13 @@
 
 # print(matrix[0][1][][][])
 
+# List Methods 1
+
+basket = [1,2,3,4,5]
+
+#adding
+basket.append(100)
+new_list = (basket)
+print(new_list)
+print(basket)
+

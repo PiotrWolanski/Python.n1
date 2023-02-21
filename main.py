@@ -319,11 +319,44 @@
 
 # List Methods 1
 
-basket = [1,2,3,4,5]
+# basket = [1,2,3,4,5]
 
 #adding
-basket.append(100)
-new_list = (basket)
-print(new_list)
-print(basket)
+# basket.insert(5, 100)
+# new_list = basket.extend([100, 101])
+# print(new_list)
+# print(basket)
 
+#removing
+
+# new_list = basket.remove(4)
+# new_list = basket.clear()
+# basket.pop()
+# print(new_list)
+
+# List Methods 2
+
+# basket = ['a','b','c','d','e', 'd']
+
+# print('x' in basket)
+# print(basket.count('d'))
+
+# List Methods 3
+
+# basket = ['a','x','b','c','d','e', 'd']
+# basket.sort()
+# print(sorted(basket))
+# basket.reverse()
+# print(basket)
+
+# Common List Patterns
+
+
+
+#Task
+friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
+
+new_friend = ['Stanley']
+
+# print(friends.sort() + new_friend)
+print(sorted(friends + new_friend))

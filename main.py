@@ -350,13 +350,29 @@
 # print(basket)
 
 # Common List Patterns
+# basket = ['a','x','b','c','d','e', 'd']
+# basket.sort()
+# basket.reverse()
 
+# print(basket[:])
+# print(basket)
 
-
+# print(list(range(1,100)))
+# new_sentence = ' '.join(['hi','my','name','is','JOJO'])
+# print(new_sentence)
 #Task
-friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
+# friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
 
-new_friend = ['Stanley']
+# new_friend = ['Stanley']
 
 # print(friends.sort() + new_friend)
-print(sorted(friends + new_friend))
+# print(sorted(friends + new_friend))
+
+# List Unpacking
+
+# a,b,c, *other, d = [1,2,3,4,5,6,7,8,9]
+# print(a)
+# print(b)
+# print(c)
+# print(other)
+# print(d)

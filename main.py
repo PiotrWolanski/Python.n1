@@ -376,3 +376,9 @@
 # print(c)
 # print(other)
 # print(d)
+
+# None
+
+weapons = None
+Null
+print(weapons)

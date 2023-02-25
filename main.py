@@ -379,6 +379,16 @@
 
 # None
 
-weapons = None
-Null
-print(weapons)
+# weapons = None
+# Null
+# print(weapons)
+
+# Dictionaries
+
+# dictionary = {
+#   'a': 1,
+#   'b': 2,
+#   'x': 3
+#   }
+
+# print(dictionary)

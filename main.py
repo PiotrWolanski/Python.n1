@@ -386,9 +386,31 @@
 # Dictionaries
 
 # dictionary = {
-#   'a': 1,
-#   'b': 2,
-#   'x': 3
+#   'weapons': [1,2,3]
+#   'greeting': 'hello',
+#   'is_Magic': True
 #   }
 
 # print(dictionary)
+
+# Dictionary Methods 1
+
+# user = {
+#   'basket': [1,2,3],
+#   'greet': 'hello'
+#   'age': 20
+# }
+
+# user2 = dict(name= 'JoJo')
+# print(user.get('age', 55))
+# print(user2)
+
+# Dictionary Methods 2
+
+user = {
+  'basket': [1,2,3],
+  'greet': 'hello',
+  'age': 20
+}
+
+print('hello' in user.values())

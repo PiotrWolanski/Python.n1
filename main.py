@@ -407,10 +407,32 @@
 
 # Dictionary Methods 2
 
-user = {
-  'basket': [1,2,3],
-  'greet': 'hello',
-  'age': 20
-}
+# user = {
+#   'basket': [1,2,3],
+#   'greet': 'hello',
+#   'age': 20
+# }
+# user2 = user.copy()
+# print(user.clear())
+# print(user.pop('age'))
 
-print('hello' in user.values())
+# print(user.popitem())
+# print(user)
+
+# Tuple  
+
+# my_tuple = (1,2,3,4,5)
+# print(5 in my_tuple)
+# user = {
+#   'basket': [1,2,3],
+#   'greet': 'hello'
+#   'age': 20
+# }
+
+# print(user.items())
+
+# Tuple 2
+
+my_tuple = (1,2,3,4,5,5)
+
+print(len(my_tuple))

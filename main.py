@@ -433,6 +433,20 @@
 
 # Tuple 2
 
-my_tuple = (1,2,3,4,5,5)
+# my_tuple = (1,2,3,4,5,5)
 
-print(len(my_tuple))
+# print(len(my_tuple))
+
+# Sets 1
+
+# my_list = {1,2,3,4,5,5}
+# my_set = {1,2,3,4,5,5}
+# my_set.add(100)
+# my_set.add(2)
+# print(set(my_list))
+# my_set = {1,2,3,4,5,5}
+# new_set = my_set.copy()
+# my_set.clear()
+# print(len(my_set))
+# print(new_set)
+# print(my_set)

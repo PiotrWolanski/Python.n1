@@ -1,4 +1,5 @@
-#Fundamental Data Types
+#Topic: Fundamental Data Types
+
 # int and float
 # print(type(2 + 4))
 # print(type(2 - 4))
@@ -9,11 +10,17 @@
 # print(5 // 4)
 # print(5 % 4)
 
-# math functions
+
+
+# Topic: math functions
+
 #print(round(3.9))
 #print(abs(-20))
 
-#operator precedence
+
+
+#Topic: operator precedence
+
 #print((20 - 3) + 2 ** 2)
 
 # ()
@@ -51,7 +58,7 @@
 # print(bin(5))
 # print(int('0b101', 2))
 
-#Variables
+#Topic: Variables
 
 # user_iq = 190
 # user_age = user_iq/4
@@ -61,7 +68,7 @@
 
 #---------------------------------------#
 
-#constants
+#Topic: constants
 #PI = 3.14
 
 # a,b,c = 1,2,3
@@ -71,7 +78,7 @@
 
 #---------------------------------------#
 
-# augmented assignment operator
+# Topic: augmented assignment operator
 #some_value = 5
 #some_value = some_value + 2
 #some_value -= 2
@@ -95,7 +102,7 @@
 
 #---------------------------------------#
 
-# string concatenation
+# Topic: string concatenation
 #print('hello' + ' Piotr')
 
 # a = str(100)
@@ -103,7 +110,7 @@
 # c = type(b)
 # print(c)
 
-#Type Conversion
+#Topic: Type Conversion
 
 #print(type(int(str(100))))
 
@@ -112,7 +119,7 @@
 
 #print(weather)
 
-#Formatted Strings
+#Topic: Formatted Strings
 
 # name = 'Johnny'
 # age = 55
@@ -121,7 +128,7 @@
 
 #---------------------------------------#
 
-#String Indexes
+#Topic: String Indexes
 
 # selfish = 'me me me'
 #         #  01234567
@@ -132,7 +139,7 @@
 # print(selfish[::-3])
 
 
-#Built-In Functions + Methods
+#Topic: Built-In Functions + Methods
 
 # greet = 'hellloooo'
 # print(greet[0:len(greet)])
@@ -144,7 +151,7 @@
 
 #---------------------------------------#
 
-#Booleans
+#Topic: Booleans
 # name = 'Piotr'
 # is_cool = False
 
@@ -285,7 +292,7 @@
 
 #---------------------------------------#
 
-# List
+# Topic: List
 # li = [1, 2, 3, 4, 5]
 # li2 = ['a', 'b', 'c']
 # li3 = [1, 2.5, 'a', True]
@@ -294,7 +301,7 @@
 # print(amazon_cart[1])
 # Data Structure
 
-# List slicing
+# Topic: List slicing
 
 # amazon_cart = ['notebooks',
 #                'sunglasses',
@@ -307,7 +314,7 @@
 # print(new_cart)
 # print(amazon_cart)
 
-# Matrix :D
+# Topic: Matrix :D
 
 # matrix = [
 #   [1,5,1],
@@ -317,31 +324,31 @@
 
 # print(matrix[0][1][][][])
 
-# List Methods 1
+# Topic: List Methods 1
 
 # basket = [1,2,3,4,5]
 
-#adding
+#Topic: adding
 # basket.insert(5, 100)
 # new_list = basket.extend([100, 101])
 # print(new_list)
 # print(basket)
 
-#removing
+#Topic: removing
 
 # new_list = basket.remove(4)
 # new_list = basket.clear()
 # basket.pop()
 # print(new_list)
 
-# List Methods 2
+# Topic: List Methods 2
 
 # basket = ['a','b','c','d','e', 'd']
 
 # print('x' in basket)
 # print(basket.count('d'))
 
-# List Methods 3
+# Topic: List Methods 3
 
 # basket = ['a','x','b','c','d','e', 'd']
 # basket.sort()
@@ -349,7 +356,7 @@
 # basket.reverse()
 # print(basket)
 
-# Common List Patterns
+# Topic: Common List Patterns
 # basket = ['a','x','b','c','d','e', 'd']
 # basket.sort()
 # basket.reverse()
@@ -360,7 +367,7 @@
 # print(list(range(1,100)))
 # new_sentence = ' '.join(['hi','my','name','is','JOJO'])
 # print(new_sentence)
-#Task
+#Topic: Task
 # friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
 
 # new_friend = ['Stanley']
@@ -368,7 +375,7 @@
 # print(friends.sort() + new_friend)
 # print(sorted(friends + new_friend))
 
-# List Unpacking
+# Topic: List Unpacking
 
 # a,b,c, *other, d = [1,2,3,4,5,6,7,8,9]
 # print(a)
@@ -377,13 +384,13 @@
 # print(other)
 # print(d)
 
-# None
+# Topic: None
 
 # weapons = None
 # Null
 # print(weapons)
 
-# Dictionaries
+# Topic: Dictionaries
 
 # dictionary = {
 #   'weapons': [1,2,3]
@@ -393,7 +400,7 @@
 
 # print(dictionary)
 
-# Dictionary Methods 1
+# Topic: Dictionary Methods 1
 
 # user = {
 #   'basket': [1,2,3],
@@ -405,7 +412,7 @@
 # print(user.get('age', 55))
 # print(user2)
 
-# Dictionary Methods 2
+# Topic: Dictionary Methods 2
 
 # user = {
 #   'basket': [1,2,3],
@@ -419,7 +426,7 @@
 # print(user.popitem())
 # print(user)
 
-# Tuple  
+# Topic: Tuple  
 
 # my_tuple = (1,2,3,4,5)
 # print(5 in my_tuple)
@@ -431,13 +438,13 @@
 
 # print(user.items())
 
-# Tuple 2
+# Topic: Tuple 2
 
 # my_tuple = (1,2,3,4,5,5)
 
 # print(len(my_tuple))
 
-# Sets 1
+# Topic: Sets 1
 
 # my_list = {1,2,3,4,5,5}
 # my_set = {1,2,3,4,5,5}
@@ -451,7 +458,7 @@
 # print(new_set)
 # print(my_set)
 
-# Sets 2
+# Topic: Sets 2
 
 # my_set = {4,5}
 # your_set = {4,5,6,7,8,9,10}
@@ -464,21 +471,67 @@
 # print(your_set.issuperset(my_set))
 # print(your_set.union(my_set))
 
-# Breaking The Flow
+# Topic: Breaking The Flow
 
-# Conditional Logic
+# Topic: Conditional Logic
 
-is_old = bool('hello')
-is_licenced = bool(5)
+# is_old = bool('hello')
+# is_licenced = bool(5)
 
-print(bool('o'))
-print(bool(0))
-# Truthy and Falsy
+# print(bool('o'))
+# print(bool(0))
+# # Truthy and Falsy
 
-if is_old and is_licenced: 
-  print('you are old enought to drive, and you have a licence!')
-# elif: condition:
-else:
- print('you are not of age!')
+# if is_old and is_licenced: 
+#   print('you are old enought to drive, and you have a licence!')
+# # elif: condition:
+# else:
+#  print('you are not of age!')
 
- print('okoko')
+#  print('okoko')
+
+# Topic: Ternary Operator
+
+# condition_if_true if condition else condition_if_false
+
+# is_friend = False
+# can_message = "message allowed" if is_friend else "not allowed to message"
+
+# print(can_message)
+
+
+
+# Topic: Short Circuiting
+
+# is_Friend = True
+# is_User = True
+
+# if is_Friend and is_User:
+#   print('best friends forever')
+
+
+# Topic: Logical Operators
+
+# >
+# <
+# ==
+# print(4>5)
+# print(4==5)
+# print(4<5)
+# print('b'>'x') #False
+# print('m'=='n') #False
+# print('a' > 'A') "a" ascii is 97 --> ord("a"); "A" ascii is 65 --> ord("A")
+
+# is_magician = True
+# is_expert = False
+
+# if is_magician and is_expert:
+#   print('You are a master magician')
+
+# elif is_magician and not is_expert:
+#   print("at least you're getting there")
+
+# elif not is_magician :
+#   print("You need magic powers")
+
+# Topic: is vs ==

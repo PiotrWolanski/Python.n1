@@ -614,12 +614,197 @@
 
 # Topic: break, continue, pass
 
-my_list = [1,2,3]
-for item in my_list:
-  pass
+# my_list = [1,2,3]
+# for item in my_list:
+#   pass
 
-i = 0
-while i < len(my_list):
-  print(my_list[i])
-  i += 1
-  pass
+# i = 0
+# while i < len(my_list):
+#   print(my_list[i])
+#   i += 1
+#   pass
+
+# Topic: First GUI
+
+#Exercise!
+# picture = [
+#   [0,0,0,1,0,0,0],
+#   [0,0,1,1,1,0,0],
+#   [0,1,1,1,1,1,0],
+#   [1,1,1,1,1,1,1],
+#   [0,0,0,1,0,0,0],
+#   [0,0,0,1,0,0,0]
+# ]
+# for row in picture:
+#   for pixel in row:
+#     if(pixel):
+#       print('*', end='')
+
+#     else:
+#       print(' ', end='')
+#   print('') # need a new line after a row\
+
+# Remember: clean, Readability, predictability, DRY
+
+# Exercise: Check for duplicates in list:
+
+# some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+
+# duplicates = []
+# for value in some_list:
+#   if some_list.count(value) > 1:
+#     if value not in duplicates:
+#       duplicates.append(value)
+
+# print(duplicates)
+
+# DRY
+
+# picture = [
+#   [0,0,0,1,0,0,0],
+#   [0,0,1,1,1,0,0],
+#   [0,1,1,1,1,1,0],
+#   [1,1,1,1,1,1,1],
+#   [0,0,0,1,0,0,0],
+#   [0,0,0,1,0,0,0]
+# ]
+# def show_tree():
+#   for row in picture:
+#     for pixel in row:
+#       if(pixel):
+#         print('*', end='')
+  
+#       else:
+#         print(' ', end='')
+#     print('')
+
+# show_tree()
+
+#parameters
+# def say_hello(name, emoji):
+#   print(f'helllloooo {name} {emoji}')
+
+# # positional arguments
+# say_hello(':D', 'Piotr')
+# say_hello('Pawel', ':p')
+# say_hello('Ola', ':*')
+
+# keyword arguments
+# say_hello(emoji=':D', name='Bibi')
+
+# def sum(num1, num2):
+#   def another_func(n1, n2):
+#     return n1 + n2
+#   return another_func(num1, num2)
+# total = sum(10, 20)
+# print(total) #watch 83 lesson again for bether understand
+
+# Exercise: Tesla
+
+# Methods vs Functions
+
+# Docstrings
+
+# def test(a):
+#   '''
+#   Info: this function tests and prints param a
+#   '''
+#   print(a)
+
+# print(test.__doc__)
+
+# clean code
+
+# def is_even(num):
+#   return num % 2 == 0
+
+# print(is_even(51))
+
+# *args and **kwargs
+
+# def super_func(name, *args, i='hi', **kwargs):
+#   total = 0
+#   for items in kwargs.values():
+#     total += items
+#   return sum(args) + total
+
+# print(super_func('Piotr', 1,2,3,4,5, num1=5, num2=10))
+
+#Rule: params, *args, default parameters, **kwargs
+
+# Exercise: Functions
+
+# def highest_even(li):
+#   evens = []
+#   for item in li:
+#     if item % 2 == 0:
+#       evens.append(item)
+#   return max(evens)
+
+# print(highest_even([10,2,3,4,8,11]))
+
+# Walarus Operator
+
+# a = 'helloooooooooo'
+
+# if ((n := len(a)) > 10):
+#     print(f"too long {n} elements")
+
+# while ((n := len(a)) > 1):
+#     print(n)
+#     a = a[:-1]
+
+# print(a)
+
+# Scope - what variables do I have access to?\
+# if True:
+#   x = 10
+
+# def some_func():
+#   total = 100
+
+# print(x)
+
+# a = 1
+
+# def parent():
+#   def confusion():
+#     return sum
+#   return confusion()
+
+# print(a)
+# print(parent())
+
+#1 - start with local
+#2 - Parent local?
+#3 - global
+#4 - built in python functions.
+
+# global Keyword
+
+# total = 0 
+
+# def count(total):
+#   total += 1
+#   return total
+
+# print(count(count(count(total))))
+
+# nonlocal Keyword
+
+# def outer():
+#   x = "local"
+#   def inner():
+#     nonlocal x
+#     x = "nonlocal"
+#     print("inner:", x)
+
+# inner()
+# print("outer:", x)
+
+# outer()
+
+# Why Do We Need Scope?
+
+
+

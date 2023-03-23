@@ -806,5 +806,30 @@
 
 # Why Do We Need Scope?
 
+# What is OOP 1
 
+# <class 'NoneType'>
+# <class 'bool'>
+# <class 'int'>
+# <class 'float'>
+# <class 'str'>
+# <class 'list'>
+# <class 'tuple'>
+# <class 'dict'>
 
+# class BigObject:
+#     pass
+
+# obj1 = BigObject()
+# obj2 = BigObject()
+# obj3 = BigObject()
+
+# print(type(None))
+# print(type(True))
+# print(type(5))
+# print(type(5.5))
+# print(type('hi'))
+# print(type([]))
+# print(type(()))
+# print(type({}))
+# print(type(obj1))

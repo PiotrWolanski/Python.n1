@@ -833,3 +833,19 @@
 # print(type(()))
 # print(type({}))
 # print(type(obj1))
+
+class PlayerCharacter:
+  def __init__(self, name, age):
+    self.age = age
+    self.name = name
+
+  def run(self):
+    print('run')
+    return 'done'
+
+player1 = PlayerCharacter('Piotr', 24)
+player2 = PlayerCharacter('Ola', 20)
+player2.attack = 50
+
+print(player1.run())
+print(player2.age)

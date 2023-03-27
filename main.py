@@ -835,17 +835,20 @@
 # print(type(obj1))
 
 class PlayerCharacter:
+  # Class Object Attribute
+  membership = True
   def __init__(self, name, age):
-    self.age = age
-    self.name = name
+    if (PlayerCharacter.membership):
+      self.age = age
+      self.name = name #attributes
 
-  def run(self):
-    print('run')
-    return 'done'
+  def shout(self):
+    print(f'my name is {self.name}')
 
 player1 = PlayerCharacter('Piotr', 24)
 player2 = PlayerCharacter('Ola', 20)
 player2.attack = 50
 
-print(player1.run())
-print(player2.age)
+print(player2.shout())
+print(player1.shout())
+help(list)

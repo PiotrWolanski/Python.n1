@@ -834,21 +834,56 @@
 # print(type({}))
 # print(type(obj1))
 
-class PlayerCharacter:
-  # Class Object Attribute
-  membership = True
-  def __init__(self, name, age):
-    if (PlayerCharacter.membership):
-      self.age = age
-      self.name = name #attributes
 
-  def shout(self):
-    print(f'my name is {self.name}')
 
-player1 = PlayerCharacter('Piotr', 24)
-player2 = PlayerCharacter('Ola', 20)
-player2.attack = 50
+  #OOP Exercise Cat-1
 
-print(player2.shout())
-print(player1.shout())
-help(list)
+
+# class Cat:
+#     species = 'mammal'
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+
+# # Instantiate the Cat object with 3 cats
+# puszek = Cat("Puszek", 3)
+# maciek = Cat("Maciek", 11)
+# rudy = Cat("Rudy", 1)
+
+
+# # Find the oldest cat
+# def get_oldest_cat(*args):
+#     return max(args)
+
+
+# # Output
+# print(f"The oldest cat is {get_oldest_cat(puszek.age, maciek.age, rudy.age)} years old.")
+
+# Topic: Encapsulation (talk)
+# Topic: Abstraction  (talk)
+
+# class PlayerCharacter:
+#   # Class Object Attribute
+#   membership = True
+#   def __init__(self, name, age):
+#     self.name = name #attributes  
+#     self.age = age
+      
+
+#   def shout(self): 
+
+#   @classmethod
+#   def adding_things(cls, num1, num2):
+#     return num1 + num2
+
+#   @staticmethod
+#   def adding_thins2(num1, num2):
+#     return num1 + num2
+
+# # player1 = PlayerCharacter('Piotr', 24)
+
+# print(player1.adding_things(2,3))
+
+
+
